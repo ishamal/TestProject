@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SkillEvaluationTest</string>
+
+    <!--Main screen-->
+    <string name="main_screen_add_button">Add</string>
+    <string name="main_screen_title_tv">Posts</string>
+    <string name="detail_view_name_title">Title :</string>
+    <string name="detail_view_name_body">Body :</string>
+    <string name="detail_view_user_name">User Name :</string>
+    <string name="detail_view_comment_count">Number of comments :</string>
+    <string name="add_post_title_name_tv">Title *</string>
+    <string name="add_post_title_name_hint_Et">Title</string>
+    <string name="add_post_body_name_tv">Body *</string>
+    <string name="add_post_body_hint_Et">Body</string>
+    <string name="add_post_btn">Save Post</string>
+    <string name="empty"></string>
+    <string name="toast_post_create">Post created successfully</string>
+    <string name="toast_post_sync">Post synced successfully</string>
+    <string name="toast_post_save">Post saved successfully</string>
+    <string name="error_body">Body required</string>
+    <string name="error_network">Internet required for Sync</string>
+    <string name="error_title">>Title required</string>
+    <string name="main_screen_sync_btn">Sync</string>
+    <string name="title_activity_user_detail">Map</string>
+    <string name="title_main">Posts</string>
+    <string name="title_add_post">Add Post</string>
+    <string name="title_user_location">User Location</string>
+    <string name="title_post_details">Details</string>
+    <string name="user_detail_name">Name : </string>
+    <string name="user_detail_user_name">User name : </string>
+    <string name="user_detail_user_address">Address : </string>
+    <string name="user_detail_user_email">Email : </string>
+    <string name="user_detail_dash"> - </string>
+</resources>

@@ -1,0 +1,189 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:7914556317269784527",
+      "lastPropertyId": "5:137354213406757055",
+      "name": "PostEntity",
+      "properties": [
+        {
+          "id": "1:8701562108154964655",
+          "name": "userId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "2:1883636494321090794",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "3:5962467368481237192",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "4:8772775152834885457",
+          "name": "body",
+          "type": 9
+        },
+        {
+          "id": "5:137354213406757055",
+          "name": "postId",
+          "type": 6,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4306027090495102897",
+      "lastPropertyId": "10:3486518366764376181",
+      "name": "UserEntity",
+      "properties": [
+        {
+          "id": "2:2074582826621004670",
+          "name": "userId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "3:6963878412415800284",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:52003529428636197",
+          "name": "username",
+          "type": 9
+        },
+        {
+          "id": "5:7298603926976490517",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "6:376090474540070224",
+          "name": "city",
+          "type": 9
+        },
+        {
+          "id": "7:3548066101976295990",
+          "name": "zipCode",
+          "type": 9
+        },
+        {
+          "id": "8:3828040909888900053",
+          "name": "lat",
+          "type": 9
+        },
+        {
+          "id": "9:5248218839121543640",
+          "name": "uId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "10:3486518366764376181",
+          "name": "lng",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:4515416872809712779",
+      "lastPropertyId": "6:5982614793745158835",
+      "name": "CommentsEntity",
+      "properties": [
+        {
+          "id": "1:6192667059736611032",
+          "name": "commentId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1432730725728811809",
+          "name": "postId",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "3:178685616949704275",
+          "name": "id",
+          "type": 6,
+          "flags": 4
+        },
+        {
+          "id": "4:5128072433087223238",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:5109179934521723238",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "6:5982614793745158835",
+          "name": "body",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2407152136859554655",
+      "lastPropertyId": "4:4661847573116266322",
+      "name": "CreatePostEntity",
+      "properties": [
+        {
+          "id": "1:2898991113549099876",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5851345072044062503",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:5095135534445392811",
+          "name": "body",
+          "type": 9
+        },
+        {
+          "id": "4:4661847573116266322",
+          "name": "userId",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:2407152136859554655",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    6246771351673399061
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    6464992210905291933,
+    3913198841268183441,
+    8779982379838129890,
+    3329331412779175547,
+    7003161295904315563,
+    2742829391830388661
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
