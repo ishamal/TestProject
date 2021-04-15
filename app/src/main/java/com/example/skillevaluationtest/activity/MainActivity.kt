@@ -46,6 +46,8 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
         createPostBox = ObjectBox.boxStore.boxFor(CreatePostEntity::class.java)
 
 
+
+        println("suhuwu")
         defineLayout()
 
         getData()
