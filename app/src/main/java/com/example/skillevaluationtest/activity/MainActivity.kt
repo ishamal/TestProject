@@ -307,15 +307,6 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
         viewAdapter = PostAdapter(posts!!, this)
         viewAdapter.setListener(this)
         posTable.adapter = viewAdapter
-        println("Commit 005")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
-        println("Commit 006")
 
     }
 
