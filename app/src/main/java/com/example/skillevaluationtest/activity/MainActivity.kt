@@ -308,6 +308,9 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
         viewAdapter.setListener(this)
         posTable.adapter = viewAdapter
 
+        println("Commit print added")
+
+
     }
 
     override fun onPostClick(posts: PostResponse) {
