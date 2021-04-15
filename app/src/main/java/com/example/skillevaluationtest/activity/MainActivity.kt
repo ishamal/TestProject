@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
         println("insta bug key")
         defineLayout()
 
+        println("location added")
         getData()
 
         button.setOnClickListener {
