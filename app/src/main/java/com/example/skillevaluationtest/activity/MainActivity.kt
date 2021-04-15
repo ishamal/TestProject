@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
                 },
                 { error ->
                     showError(error.message)
-                    println("match maker")
+                    println("match maker updated")
                 }
             )
 
