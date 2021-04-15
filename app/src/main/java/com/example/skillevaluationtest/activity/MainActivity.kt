@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
 
 
         println("suhuwu")
-        println("insta bug key")
+        println("insta bug key removed")
         defineLayout()
 
         getData()
