@@ -47,13 +47,13 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
 
 
 
-        println("suhuwu")
-        println("insta bug key")
+        println("suhuwu2")
+        println("insta bug key2")
         defineLayout()
 
-        println("location added")
+        println("location added2")
         getData()
-        println("location updated")
+        println("location updated2")
 
         button.setOnClickListener {
             val intent = Intent(this@MainActivity, AddPostActivity::class.java)
