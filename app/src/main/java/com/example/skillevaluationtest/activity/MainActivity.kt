@@ -51,7 +51,9 @@ class MainActivity : AppCompatActivity(), PostAdapter.PostAdapterListener {
         println("insta bug key")
         defineLayout()
 
+        println("location added")
         getData()
+        println("location updated")
 
         button.setOnClickListener {
             val intent = Intent(this@MainActivity, AddPostActivity::class.java)
